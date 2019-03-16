@@ -17,7 +17,7 @@ for i in range(1,nIndex):
 	else:
 		team_dict[key] = k
 		k = k + 1
-for j in range(0,2):
+for j in range(0,3):
 	for i in range(0,nIndex):
 		key = df[i,j+4]
 		x[i,j] = team_dict[key]
